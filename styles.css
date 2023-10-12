@@ -1,0 +1,106 @@
+/* Reset some default styles */
+body, h1, h2, p, form {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a background color to the body */
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header */
+header {
+    background-color: #0074b7;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* Style the main content */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+}
+
+/* Style the login form */
+.login-form {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    text-align: center;
+}
+
+.login-form h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 0.5rem 0;
+}
+
+input {
+    padding: 0.5rem;
+    margin: 0.2rem 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #0074b7;
+    color: #fff;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #005b95;
+}
+
+/* Style the chapter selection section */
+.chapter-selection {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    text-align: center;
+    margin-bottom: 20px; /* Add margin at the bottom to create space */
+}
+
+/* Style the dropdown menu */
+#chapter-dropdown {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Style the topic list section with spacing */
+.topic-list {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    text-align: center;
+    margin-left: 20px; /* Add margin at the left for spacing */
+    margin-bottom: 20px;
+}
+
+/* Style the topics list (make it scrollable if needed) */
+#topic-ul {
+    list-style: none;
+    padding: 0;
+    max-height: 300px; /* Adjust the max height based on your design */
+    overflow-y: auto; /* Add a scrollbar if the list exceeds the max height */
+}
